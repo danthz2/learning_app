@@ -1,16 +1,29 @@
-# learning_app
+# Learning App
+Hello, nice to meet you, thank you for visiting :)
+I'm trying to rebuild the app using getx
 
-A new Flutter project.
+![Add a heading](https://user-images.githubusercontent.com/67012680/190949979-e4e05cff-6b37-4f83-8194-57588477061e.png)
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Login
+- Home
+- Search
+- Message
+- Account
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
+```
+convex_bottom_bar: ^3.0.0
+cupertino_icons: ^1.0.2
+flutter_svg: ^1.1.5
+get: 4.6.5
+google_fonts: ^3.0.1
+intl: ^0.17.0
+step_progress_indicator: ^1.0.2
+syncfusion_flutter_sliders: ^20.2.49
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Design UI By Hitesh Tapaniya
+[Figma](https://www.figma.com/community/file/1134363994710610029)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
