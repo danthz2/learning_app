@@ -18,6 +18,7 @@ Color lightRedC = Color(0xffFFE7EE);
 Color tealC = Color(0xffD8FFEF);
 
 Color orangeC = Color(0xffFF6905);
+Color yellowC = Color(0xffFFD301);
 
 TextStyle textBlack = GoogleFonts.poppins(
   fontSize: 14,

@@ -76,7 +76,7 @@ class PageIndexController extends GetxController {
               ),
               Expanded(
                 child: ListView(
-                  padding: EdgeInsets.symmetric(horizontal: 25, vertical: 29).copyWith(top: 0),
+                  padding: EdgeInsets.symmetric(horizontal: 25),
                   children: [
                     SizedBox(
                       height: 10,
@@ -185,42 +185,42 @@ class PageIndexController extends GetxController {
                         },
                       ).toList(),
                     ),
-                    SizedBox(
-                      height: 40,
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Row(
+                  children: [
+                    OutlinedButton(
+                      style: OutlinedButton.styleFrom(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        fixedSize: Size(90, 50),
+                        primary: blueC,
+                        side: BorderSide(
+                          color: blueC,
+                        ),
+                      ),
+                      onPressed: () {},
+                      child: Text('Clear'),
                     ),
-                    Row(
-                      children: [
-                        OutlinedButton(
-                          style: OutlinedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            fixedSize: Size(90, 50),
-                            primary: blueC,
-                            side: BorderSide(
-                              color: blueC,
-                            ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Expanded(
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          primary: blueC,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
                           ),
-                          onPressed: () {},
-                          child: Text('Clear'),
+                          fixedSize: Size(90, 50),
                         ),
-                        SizedBox(
-                          width: 5,
-                        ),
-                        Expanded(
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              primary: blueC,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              fixedSize: Size(90, 50),
-                            ),
-                            onPressed: () {},
-                            child: Text('Apply Filter'),
-                          ),
-                        ),
-                      ],
+                        onPressed: () {},
+                        child: Text('Apply Filter'),
+                      ),
                     ),
                   ],
                 ),
